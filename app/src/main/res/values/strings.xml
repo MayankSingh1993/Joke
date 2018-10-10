@@ -2,4 +2,6 @@
     <string name = "app_name" >Joke</string >
     <string name = "button_response">Timing!</string>
     <string name = "button_text">What is the secret of comedy?</string>
+    <string name = "channel_name">Joke Channel</string>
+    <string name = "channel_description" >show Joke description</string>
 </resources >
