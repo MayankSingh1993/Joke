@@ -58,6 +58,7 @@ public class DelayedMessageService extends IntentService {
                 .setContentIntent(pendingIntent)
                 .setContentText(text)
                 .build();
+
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(NOTIFICATION_ID,notification);
