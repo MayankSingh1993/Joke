@@ -1,9 +1,12 @@
-package com.example.joke;
+package com.example.joke.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.joke.R;
+import com.example.joke.Service.DelayedMessageService;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +23,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(DelayedMessageService.EXTRA_MESSAGE,getResources().getString(R.string.button_response));
         startService(intent);
     }
+
+
 
 }
